@@ -18,3 +18,34 @@ p:hover {
     border-color: black;
     transform: scale(1.1);
 }
+
+.ozel {
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.indirim {
+    text-decoration: underline;
+}
+
+.ozel .indirim {
+    color: red;
+}
+
+body>ol>li:nth-child(4)>ol>li:nth-child(1) {
+    color: chartreuse;
+}
+
+#img-avatar {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 3px;
+}
+
+li:nth-child(odd) {
+    background-color: gray;
+}
+
+li:nth-child(even) {
+    background-color: gainsboro;
+}
