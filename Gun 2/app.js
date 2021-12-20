@@ -8,7 +8,7 @@ degisken1 = true;
 degisken1 = [1, 2, 4, 5, 14];
 degisken1 = {
   ad: "Kamil",
-  soyad: "Fıdıl",
+  "soyad" : "Fıdıl",
   yas: 43,
 };
 degisken1.telefon = "0522115458";
@@ -50,12 +50,15 @@ var degisken3 = 5;
 var sunucu = "5";
 
 if (degisken3 === sunucu && typeof degisken3 == typeof sunucu) {
+
 }
 
-var dizi1 = [1, 2, 4, 3.14, true, "Kamil", { ad: "Kamil", soyad: "Fıdıl" }];
+var dizi1 = [ 1, 2, 4, 3.14, true, "Kamil", { ad: "Kamil", soyad: "Fıdıl" } ];
 
 for (var i = 0; i < dizi1.length; i++) {
   console.log(dizi1[i]);
 }
 
 dizi1[10] = "Hıdır";
+
+var dizi1 = 1234;
